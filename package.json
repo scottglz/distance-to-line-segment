@@ -1,6 +1,6 @@
 {
   "name": "distance-to-line-segment",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Calculate distance between a point and a finite line segment",
   "repository": "https://github.com/scottglz/distance-to-line-segment",
   "main": "index.js",
