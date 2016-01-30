@@ -1,0 +1,25 @@
+{
+  "name": "distance-to-line-segment",
+  "version": "0.1.0",
+  "description": "Calculate distance between a point and a finite line segment",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "lint": "jshint .",
+    "makedocs": "jsdoc2md index.js | cat readme_src/head.md - readme_src/tail.md > README.md"
+  },
+  "keywords": [
+    "line",
+    "segment",
+    "point",
+    "distance",
+    "geometry"
+  ],
+  "author": "Scott Glazer",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^1.3.3",
+    "jshint": "^2.9.1",
+    "tape": "^4.4.0"
+  }
+}
